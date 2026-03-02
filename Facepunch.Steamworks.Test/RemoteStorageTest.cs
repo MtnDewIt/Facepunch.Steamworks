@@ -62,7 +62,7 @@ namespace Steamworks
 			}
 
 			Assert.AreEqual( SteamRemoteStorage.FileSize( "testfile" ), data.Length );
-			Assert.AreEqual( SteamRemoteStorage.FileSize( "testfile" ), 1024 * 1024 * 100 );
+			Assert.AreEqual( 1024 * 1024 * 100, SteamRemoteStorage.FileSize( "testfile" ));
 		}
 
 		[TestMethod]
