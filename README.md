@@ -1,4 +1,8 @@
-# Facepunch.Steamworks
+# HaloMods.Steamworks
+
+This is just a standalone version of the Facepunch.Steamworks minus the unity and 32 bit support. Also migrated the whole thing forward to .NET 10 for those who need it. If you want the full version with unity support and 32 bit support, go check out the original repo [here](https://github.com/Facepunch/Facepunch.Steamworks)
+
+## Facepunch.Steamworks
 
 [Another fucking c# Steamworks implementation](https://wiki.facepunch.com/steamworks/)
 

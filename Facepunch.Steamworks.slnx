@@ -1,19 +1,18 @@
 <Solution>
   <Configurations>
-    <Platform Name="Any CPU" />
-    <Platform Name="x64" />
-    <Platform Name="x86" />
+    <Platform Name="linux-x64" />
+    <Platform Name="windows-x64" />
   </Configurations>
-  <Project Path="Facepunch.Steamworks.Test/Facepunch.Steamworks.TestWin32.csproj">
-    <Platform Solution="*|x64" Project="x64" />
-    <Platform Solution="*|x86" Project="x86" />
+  <Project Path="Facepunch.Steamworks.Test/Facepunch.Steamworks.Test.csproj">
+    <Platform Solution="*|linux-x64" Project="linux-x64" />
+    <Platform Solution="*|windows-x64" Project="windows-x64" />
   </Project>
-  <Project Path="Facepunch.Steamworks.Test/Facepunch.Steamworks.TestWin64.csproj">
-    <Platform Solution="*|x64" Project="x64" />
-    <Platform Solution="*|x86" Project="x86" />
+  <Project Path="Facepunch.Steamworks/Facepunch.Steamworks.csproj">
+    <Platform Solution="*|linux-x64" Project="linux-x64" />
+    <Platform Solution="*|windows-x64" Project="windows-x64" />
   </Project>
-  <Project Path="Facepunch.Steamworks/Facepunch.Steamworks.Posix.csproj" />
-  <Project Path="Facepunch.Steamworks/Facepunch.Steamworks.Win32.csproj" />
-  <Project Path="Facepunch.Steamworks/Facepunch.Steamworks.Win64.csproj" />
-  <Project Path="Generator/Generator.csproj" />
+  <Project Path="Generator/Generator.csproj">
+    <Platform Solution="*|linux-x64" Project="linux-x64" />
+    <Platform Solution="*|windows-x64" Project="windows-x64" />
+  </Project>
 </Solution>
